@@ -21,7 +21,7 @@ body{
     cursor: pointer;
 }
 
-.toggle{
+#toggle{
     position: relative;
     top: 0;
     left: 0;
@@ -34,16 +34,18 @@ body{
                 -3px -3px 8px #fff;
 }
 
-#container.active .toggle{
+#container.active #toggle{
     margin-left: 40px;
 }
 
-body.active{
-    background-color: rgb(23, 23, 23);
+.dark{
+    background-color: rgb(23,23,23);
+    color: white;
+    transition: all 1.0s ease;
 }
 
-.left-area.active .toggle{
-    background-color: rgb(23, 23, 23);
+.left-area.dark{
+    background-color: rgb(23,23,23);
 }
 
 .print-area{
