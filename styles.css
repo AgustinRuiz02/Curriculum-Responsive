@@ -22,7 +22,6 @@ body{
 .print-area .header{
     width: 100%;
     height: 150px;
-
     background-color: rgb(35, 43, 65);
     display: flex;
     align-items: center;
@@ -30,11 +29,11 @@ body{
 }
 
 .header img{
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
-    margin-top: 150px;
-    margin-left: 135px;
+    margin-top: 145px;
+    margin-left: 127px;
     position: absolute;
     border: 5px solid white;
     box-shadow: 3px 3px 10px black;
@@ -53,7 +52,7 @@ body{
 .header-text{
     color: white;
     width: 60%;
-    margin-left: auto;
+    margin-left: 570px;
 }
 
 .header-text h1{
@@ -76,14 +75,14 @@ body{
     background-color: rgba(35, 43, 65, 0.309);
 }
 
-.left-area{
+.leftarea{
     width: 30%;
     background-color: lightgrey;
     text-align: center;
     padding-bottom: 20px;
     border: 10px solid rgba(0, 0, 0, 0.2);    
 }
-.left-area .contact{
+.leftarea .contact{
     margin-top: 140px;
     padding: 0 30px;
 }
@@ -161,7 +160,7 @@ body{
 }
 
 
-.right-area{
+.rightarea{
     margin-left: 0.5%;
     width: 69.5%;
     padding: 50px;
@@ -169,12 +168,12 @@ body{
     border: 10px solid rgba(0, 0, 0, 0.2);
 }
 
-.right-area h1{
+.rightarea h1{
     font-size: 40px;
     font-weight: normal;
 }
 
-.right-area p{
+.rightarea p{
     text-align: justify;
     word-break: break-all;
     font-size: 17px;
@@ -220,7 +219,7 @@ body{
 }
 .estudios h4{
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .estudios span{
@@ -233,14 +232,22 @@ body{
 
 #container{
     background-color: #f8f8f8;
-    width: 80px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     box-sizing: border-box;
     box-shadow: inset 4px 4px 6px #838383,
                 inset -2px -2px 10px #cecece;
     margin-right: 20px ;
     border-radius: 20px;
     cursor: pointer;
+    margin-right: 50px;
+}
+
+.texto{
+    color: white;
+    font-size: 18px;
+    text-align: end;
+    margin-right: 5px;
 }
 
 
@@ -248,24 +255,32 @@ button{
     position: relative;
     top: 0;
     left: 0;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     transform: scale(.7);
     background: linear-gradient(145deg, #b1b1b1, #cacaca);
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 3px 3px 8px #c4c4c4,
                 -3px -3px 8px #fff;
-    font-size: 20px;
 }
 
 
 .dark{
     background-color: #333;
-    color: white;
+    color: rgb(215, 215, 215);
+    
 }
 
-button.dark{
-    margin-left: 60px;
+.darkcontent{
+    background-color: #555555;
+    color: rgb(215, 215, 215);
 }
+
+.darkcontent .bar span::before{
+    background-color: rgb(197, 197, 197);
+}
+
+
+
 
