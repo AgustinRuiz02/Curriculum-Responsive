@@ -12,6 +12,7 @@
 
 body{
     background-color: rgb(158, 158, 158);
+    transition: .25s;
 }
 
 .print-area{
